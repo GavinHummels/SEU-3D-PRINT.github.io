@@ -7,11 +7,6 @@ category:
 
 以下是由我们的打印机打印出的一些模型：
 
-
-* Table of Contents
-{:toc} 
-
-
 ###玩具汽车
 <figure class="half">
     <img src="{{site.staticurl}}/images/posts/car.jpg">
@@ -32,7 +27,7 @@ category:
     <img src="{{site.staticurl}}/images/posts/squirrel.jpg">
 </figure>
 
-###可选的材料颜色
-<figure class="half">
-    <img src="{{site.staticurl}}/images/posts/color.jpg">
-</figure>
+
+<div class="jumbotron">
+        <a class="btn btn-large btn-success" href="{{ site.baseurl }}/aboutPRODUCTS2/">产品实拍</a>
+</div>
