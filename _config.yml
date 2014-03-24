@@ -18,17 +18,17 @@ web_email: seu_3d_print@163.com
 committee_positions: [president, vicepresident]
 committee:
   president:
-    name: 卞杨清
+    name: 卞扬清
     gravatar:
+    Phone:18761898370
     email: seu_3d_print@163.com
     position: President
   vicepresident:
     name: 艾凌风
     gravatar: 
+    Phone:15195817971
     email: seu_3d_print@163.com
     position: Vice-president
-  
-
 # The URL of your actual domain. This will be used to make absolute links in the RSS feed.
 baseurl: http://seu-3d-print.github.io
 url: http://seu-3d-print.github.io
