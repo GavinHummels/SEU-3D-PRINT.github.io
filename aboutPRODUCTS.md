@@ -29,5 +29,5 @@ category:
 
 
 <div class="jumbotron">
-        <a class="btn btn-large btn-success btn-lg" href="{{ site.baseurl }}/aboutPRODUCTS2/">产品实拍</a>
+        <a class="btn btn-large btn-success" href="{{ site.baseurl }}/aboutPRODUCTS2/">产品实拍</a>
 </div>
