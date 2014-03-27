@@ -99,13 +99,13 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav"><!--导航栏-->
-
                     <li{% if page.url == '/' %} class="active"{% endif %}><a href="{{site.url}}">首页</a></li>
                     <!--<li{% if page.url == '/posts/' %} class="active"{% endif %}><a href="{{site.baseurl}}/posts/">Blog Posts</a></li>--> 
                     <!--<li{% if page.url == '/projects/' %} class="active"{% endif %}><a 
                     href="{{site.baseurl}}/projects/">Projects</a></li>-->
+
                     <!--class="active"会导致跳转该页时字体点亮-->
-                    <li <a href="www.wiiboox.com" class="navbar-link" >关于我们的设备</a></li>
+                    <li{% if page.url == '/aboutprinter/' %} class="active"{% endif %}><a href="{{site.baseurl}}/aboutprinter/">关于我们的设备</a></li>
                     <li{% if page.url == '/aboutPRODUCTS/' %} class="active"{% endif %}><a href="{{site.baseurl}}/aboutPRODUCTS/">关于我们的产品</a></li>
 
                     <li{% if page.url == '/mobile/' %} class="active"{% endif %}><a href="{{site.baseurl}}/mobile/">手机用户请点这里</a></li>
